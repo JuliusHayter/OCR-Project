@@ -13,4 +13,4 @@ L'objectif de ce projet est d'expérimenter des techniques d'OCR (optical charac
 
 Pour chaque élément de texte trouvé, on donnera le texte en question, les coordonnées de ce champ de texte et le taux de confiance associé. 
 
-Un champ de texte sera assimilé à un rectangle, les coordonées seront donc de la forme (x1,y1), (x2,y2), avec (x1,y1) les coordonées du coin supérieur gauche du rectangle et (x2,y2) les coordonnées du coin inférieur droit.
+Un champ de texte sera assimilé à un rectangle, les coordonées seront donc de la forme (x1,y1), (x2,y2), avec (x1,y1) les coordonnées du coin supérieur gauche du rectangle et (x2,y2) les coordonnées du coin inférieur droit.
