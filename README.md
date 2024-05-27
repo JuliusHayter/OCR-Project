@@ -9,8 +9,8 @@ Dans le cadre d’un projet d’ingestion de rapport d’inspection d’infrastr
 
 ## Objectif 
 
-L'objectif de ce projet est d'expérimenter des techniques d'OCR (optical character recognition) pour retrouver du texte sur une image au format png (cf Genova.png)
+L'objectif de ce projet est d'expérimenter des techniques d'OCR (optical character recognition) pour retrouver du texte sur une image au format PNG (cf Genova.png)
 
 Pour chaque élément de texte trouvé, on donnera le texte en question, les coordonnées de ce champ de texte et le taux de confiance associé. 
 
-Un champ de texte sera assimilé à un rectangle, les coordonées seront donc de la forme (x1,y1), (x2,y2), avec (x1,y1) les coordonnées du coin supérieur gauche du rectangle et (x2,y2) les coordonnées du coin inférieur droit.
+Un champ de texte sera assimilé à un rectangle, on retrouvera donc 4 coordonnées, les x et y de chaque angle du rectangle fictif dans lequel se trouve le texte.
